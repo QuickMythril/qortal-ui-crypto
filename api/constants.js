@@ -265,7 +265,7 @@ const BCRYPT_VERSION = "2a"
 const STATIC_BCRYPT_SALT = `$${BCRYPT_VERSION}$${BCRYPT_ROUNDS}$IxVE941tXVUD4cW0TNVm.O`
 // const PBKDF2_ROUNDS = Math.pow(2,17) // Deprecated
 
-const KDF_THREADS = 16 // 16 Threads seems like a good number :)
+const KDF_THREADS = 16 // 16 Threads seems like a good number :) . No you dumbass nigerian. Its not ! -_-
 
 export { TX_TYPES, ERROR_CODES, QORT_DECIMALS, PROXY_URL, STATIC_SALT, ADDRESS_VERSION, KDF_THREADS, STATIC_BCRYPT_SALT }
 
