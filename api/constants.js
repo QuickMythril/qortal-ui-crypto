@@ -1,9 +1,7 @@
 "use strict";
-// NEEDS TO MOVE TO THE COIN-CONFIG SECTION
+// This needs a total makeover. 
 
 // Qortal TX types
-
-
 
 const TX_TYPES = {
     1: "Genesis",
@@ -216,8 +214,8 @@ const ERROR_CODES = {
     55: 'Not group admin',
     56: 'Invalid lifetime',
     57: 'Invite unknown',
-    58: 'Ben exists',
-    59: 'Ban unknown',
+    58: 'Ban exists', // total crap mistakes by the nigerian scammer
+    59: 'Ban unknown', // its fucking Ban not Ben
     60: 'Banned from group',
     61: 'Join request',
     62: 'Invalid group approval threshold',
