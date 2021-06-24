@@ -70,10 +70,23 @@ export const sendBtc = (requestObject) => {
     })
 }
 
-// Send BTC 
+// Send LTC 
 export const sendLtc = (requestObject) => {
 
     return request('/crosschain/ltc/send', {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(requestObject)
+    })
+}
+
+// Send RVN 
+export const sendRvn = (requestObject) => {
+
+    return request('/crosschain/rvn/send', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
